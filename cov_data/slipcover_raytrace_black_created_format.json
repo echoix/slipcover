@@ -1,0 +1,1847 @@
+{
+    "meta": {
+        "format": 3,
+        "version": "7.6.0",
+        "timestamp": "2024-07-28T21:00:34.108630",
+        "branch_coverage": false,
+        "show_contexts": false
+    },
+    "files": {
+        "benchmarks/bm_raytrace.py": {
+            "executed_lines": [
+                1,
+                11,
+                12,
+                14,
+                15,
+                18,
+                19,
+                20,
+                23,
+                25,
+                26,
+                27,
+                28,
+                30,
+                33,
+                36,
+                37,
+                39,
+                40,
+                43,
+                45,
+                46,
+                47,
+                49,
+                50,
+                52,
+                53,
+                54,
+                56,
+                57,
+                58,
+                64,
+                65,
+                67,
+                70,
+                71,
+                73,
+                76,
+                77,
+                79,
+                80,
+                82,
+                85,
+                86,
+                87,
+                90,
+                91,
+                92,
+                93,
+                95,
+                96,
+                99,
+                101,
+                102,
+                103,
+                104,
+                106,
+                109,
+                112,
+                113,
+                114,
+                116,
+                117,
+                118,
+                122,
+                125,
+                126,
+                128,
+                131,
+                132,
+                135,
+                137,
+                138,
+                139,
+                140,
+                142,
+                145,
+                146,
+                147,
+                148,
+                149,
+                150,
+                152,
+                154,
+                155,
+                158,
+                160,
+                161,
+                162,
+                164,
+                167,
+                168,
+                169,
+                170,
+                174,
+                175,
+                178,
+                180,
+                181,
+                182,
+                184,
+                187,
+                188,
+                191,
+                194,
+                196,
+                197,
+                198,
+                199,
+                200,
+                201,
+                203,
+                204,
+                205,
+                206,
+                207,
+                209,
+                216,
+                217,
+                218,
+                219,
+                220,
+                221,
+                222,
+                223,
+                226,
+                228,
+                229,
+                230,
+                231,
+                232,
+                233,
+                234,
+                236,
+                239,
+                240,
+                242,
+                243,
+                245,
+                246,
+                248,
+                249,
+                250,
+                251,
+                252,
+                253,
+                254,
+                255,
+                257,
+                258,
+                259,
+                261,
+                262,
+                263,
+                264,
+                265,
+                266,
+                267,
+                269,
+                270,
+                271,
+                272,
+                273,
+                274,
+                275,
+                276,
+                277,
+                279,
+                280,
+                281,
+                283,
+                285,
+                286,
+                287,
+                288,
+                289,
+                290,
+                292,
+                293,
+                294,
+                295,
+                296,
+                297,
+                300,
+                301,
+                304,
+                306,
+                307,
+                308,
+                309,
+                310,
+                314,
+                315,
+                317,
+                318,
+                320,
+                321,
+                322,
+                323,
+                324,
+                326,
+                327,
+                328,
+                329,
+                330,
+                331,
+                332,
+                333,
+                335,
+                336,
+                338,
+                341,
+                343,
+                344,
+                345,
+                346,
+                348,
+                349,
+                350,
+                351,
+                352,
+                354,
+                357,
+                358,
+                359,
+                361,
+                362,
+                363,
+                364,
+                365,
+                366,
+                367,
+                368,
+                369,
+                373,
+                374,
+                376,
+                378,
+                380,
+                383,
+                390,
+                391,
+                392,
+                393,
+                399,
+                405,
+                409,
+                410,
+                411,
+                412,
+                413,
+                414
+            ],
+            "summary": {
+                "covered_lines": 251,
+                "num_statements": 276,
+                "percent_covered": 90.94202898550725,
+                "percent_covered_display": "91",
+                "missing_lines": 25,
+                "excluded_lines": 0
+            },
+            "missing_lines": [
+                31,
+                34,
+                41,
+                68,
+                74,
+                83,
+                107,
+                110,
+                120,
+                123,
+                129,
+                143,
+                165,
+                172,
+                185,
+                210,
+                211,
+                212,
+                213,
+                237,
+                379,
+                384,
+                385,
+                386,
+                387
+            ],
+            "excluded_lines": [],
+            "functions": {
+                "Vector.__init__": {
+                    "executed_lines": [
+                        26,
+                        27,
+                        28
+                    ],
+                    "summary": {
+                        "covered_lines": 3,
+                        "num_statements": 3,
+                        "percent_covered": 100.0,
+                        "percent_covered_display": "100",
+                        "missing_lines": 0,
+                        "excluded_lines": 0
+                    },
+                    "missing_lines": [],
+                    "excluded_lines": []
+                },
+                "Vector.__str__": {
+                    "executed_lines": [],
+                    "summary": {
+                        "covered_lines": 0,
+                        "num_statements": 1,
+                        "percent_covered": 0.0,
+                        "percent_covered_display": "0",
+                        "missing_lines": 1,
+                        "excluded_lines": 0
+                    },
+                    "missing_lines": [
+                        31
+                    ],
+                    "excluded_lines": []
+                },
+                "Vector.__repr__": {
+                    "executed_lines": [],
+                    "summary": {
+                        "covered_lines": 0,
+                        "num_statements": 1,
+                        "percent_covered": 0.0,
+                        "percent_covered_display": "0",
+                        "missing_lines": 1,
+                        "excluded_lines": 0
+                    },
+                    "missing_lines": [
+                        34
+                    ],
+                    "excluded_lines": []
+                },
+                "Vector.magnitude": {
+                    "executed_lines": [
+                        37
+                    ],
+                    "summary": {
+                        "covered_lines": 1,
+                        "num_statements": 1,
+                        "percent_covered": 100.0,
+                        "percent_covered_display": "100",
+                        "missing_lines": 0,
+                        "excluded_lines": 0
+                    },
+                    "missing_lines": [],
+                    "excluded_lines": []
+                },
+                "Vector.__add__": {
+                    "executed_lines": [
+                        40,
+                        43
+                    ],
+                    "summary": {
+                        "covered_lines": 2,
+                        "num_statements": 3,
+                        "percent_covered": 66.66666666666667,
+                        "percent_covered_display": "67",
+                        "missing_lines": 1,
+                        "excluded_lines": 0
+                    },
+                    "missing_lines": [
+                        41
+                    ],
+                    "excluded_lines": []
+                },
+                "Vector.__sub__": {
+                    "executed_lines": [
+                        46,
+                        47
+                    ],
+                    "summary": {
+                        "covered_lines": 2,
+                        "num_statements": 2,
+                        "percent_covered": 100.0,
+                        "percent_covered_display": "100",
+                        "missing_lines": 0,
+                        "excluded_lines": 0
+                    },
+                    "missing_lines": [],
+                    "excluded_lines": []
+                },
+                "Vector.scale": {
+                    "executed_lines": [
+                        50
+                    ],
+                    "summary": {
+                        "covered_lines": 1,
+                        "num_statements": 1,
+                        "percent_covered": 100.0,
+                        "percent_covered_display": "100",
+                        "missing_lines": 0,
+                        "excluded_lines": 0
+                    },
+                    "missing_lines": [],
+                    "excluded_lines": []
+                },
+                "Vector.dot": {
+                    "executed_lines": [
+                        53,
+                        54
+                    ],
+                    "summary": {
+                        "covered_lines": 2,
+                        "num_statements": 2,
+                        "percent_covered": 100.0,
+                        "percent_covered_display": "100",
+                        "missing_lines": 0,
+                        "excluded_lines": 0
+                    },
+                    "missing_lines": [],
+                    "excluded_lines": []
+                },
+                "Vector.cross": {
+                    "executed_lines": [
+                        57,
+                        58
+                    ],
+                    "summary": {
+                        "covered_lines": 2,
+                        "num_statements": 2,
+                        "percent_covered": 100.0,
+                        "percent_covered_display": "100",
+                        "missing_lines": 0,
+                        "excluded_lines": 0
+                    },
+                    "missing_lines": [],
+                    "excluded_lines": []
+                },
+                "Vector.normalized": {
+                    "executed_lines": [
+                        65
+                    ],
+                    "summary": {
+                        "covered_lines": 1,
+                        "num_statements": 1,
+                        "percent_covered": 100.0,
+                        "percent_covered_display": "100",
+                        "missing_lines": 0,
+                        "excluded_lines": 0
+                    },
+                    "missing_lines": [],
+                    "excluded_lines": []
+                },
+                "Vector.negated": {
+                    "executed_lines": [],
+                    "summary": {
+                        "covered_lines": 0,
+                        "num_statements": 1,
+                        "percent_covered": 0.0,
+                        "percent_covered_display": "0",
+                        "missing_lines": 1,
+                        "excluded_lines": 0
+                    },
+                    "missing_lines": [
+                        68
+                    ],
+                    "excluded_lines": []
+                },
+                "Vector.__eq__": {
+                    "executed_lines": [
+                        71
+                    ],
+                    "summary": {
+                        "covered_lines": 1,
+                        "num_statements": 1,
+                        "percent_covered": 100.0,
+                        "percent_covered_display": "100",
+                        "missing_lines": 0,
+                        "excluded_lines": 0
+                    },
+                    "missing_lines": [],
+                    "excluded_lines": []
+                },
+                "Vector.isVector": {
+                    "executed_lines": [],
+                    "summary": {
+                        "covered_lines": 0,
+                        "num_statements": 1,
+                        "percent_covered": 0.0,
+                        "percent_covered_display": "0",
+                        "missing_lines": 1,
+                        "excluded_lines": 0
+                    },
+                    "missing_lines": [
+                        74
+                    ],
+                    "excluded_lines": []
+                },
+                "Vector.isPoint": {
+                    "executed_lines": [
+                        77
+                    ],
+                    "summary": {
+                        "covered_lines": 1,
+                        "num_statements": 1,
+                        "percent_covered": 100.0,
+                        "percent_covered_display": "100",
+                        "missing_lines": 0,
+                        "excluded_lines": 0
+                    },
+                    "missing_lines": [],
+                    "excluded_lines": []
+                },
+                "Vector.mustBeVector": {
+                    "executed_lines": [
+                        80
+                    ],
+                    "summary": {
+                        "covered_lines": 1,
+                        "num_statements": 1,
+                        "percent_covered": 100.0,
+                        "percent_covered_display": "100",
+                        "missing_lines": 0,
+                        "excluded_lines": 0
+                    },
+                    "missing_lines": [],
+                    "excluded_lines": []
+                },
+                "Vector.mustBePoint": {
+                    "executed_lines": [],
+                    "summary": {
+                        "covered_lines": 0,
+                        "num_statements": 1,
+                        "percent_covered": 0.0,
+                        "percent_covered_display": "0",
+                        "missing_lines": 1,
+                        "excluded_lines": 0
+                    },
+                    "missing_lines": [
+                        83
+                    ],
+                    "excluded_lines": []
+                },
+                "Vector.reflectThrough": {
+                    "executed_lines": [
+                        86,
+                        87
+                    ],
+                    "summary": {
+                        "covered_lines": 2,
+                        "num_statements": 2,
+                        "percent_covered": 100.0,
+                        "percent_covered_display": "100",
+                        "missing_lines": 0,
+                        "excluded_lines": 0
+                    },
+                    "missing_lines": [],
+                    "excluded_lines": []
+                },
+                "Point.__init__": {
+                    "executed_lines": [
+                        102,
+                        103,
+                        104
+                    ],
+                    "summary": {
+                        "covered_lines": 3,
+                        "num_statements": 3,
+                        "percent_covered": 100.0,
+                        "percent_covered_display": "100",
+                        "missing_lines": 0,
+                        "excluded_lines": 0
+                    },
+                    "missing_lines": [],
+                    "excluded_lines": []
+                },
+                "Point.__str__": {
+                    "executed_lines": [],
+                    "summary": {
+                        "covered_lines": 0,
+                        "num_statements": 1,
+                        "percent_covered": 0.0,
+                        "percent_covered_display": "0",
+                        "missing_lines": 1,
+                        "excluded_lines": 0
+                    },
+                    "missing_lines": [
+                        107
+                    ],
+                    "excluded_lines": []
+                },
+                "Point.__repr__": {
+                    "executed_lines": [],
+                    "summary": {
+                        "covered_lines": 0,
+                        "num_statements": 1,
+                        "percent_covered": 0.0,
+                        "percent_covered_display": "0",
+                        "missing_lines": 1,
+                        "excluded_lines": 0
+                    },
+                    "missing_lines": [
+                        110
+                    ],
+                    "excluded_lines": []
+                },
+                "Point.__add__": {
+                    "executed_lines": [
+                        113,
+                        114
+                    ],
+                    "summary": {
+                        "covered_lines": 2,
+                        "num_statements": 2,
+                        "percent_covered": 100.0,
+                        "percent_covered_display": "100",
+                        "missing_lines": 0,
+                        "excluded_lines": 0
+                    },
+                    "missing_lines": [],
+                    "excluded_lines": []
+                },
+                "Point.__sub__": {
+                    "executed_lines": [
+                        117,
+                        118
+                    ],
+                    "summary": {
+                        "covered_lines": 2,
+                        "num_statements": 3,
+                        "percent_covered": 66.66666666666667,
+                        "percent_covered_display": "67",
+                        "missing_lines": 1,
+                        "excluded_lines": 0
+                    },
+                    "missing_lines": [
+                        120
+                    ],
+                    "excluded_lines": []
+                },
+                "Point.isVector": {
+                    "executed_lines": [],
+                    "summary": {
+                        "covered_lines": 0,
+                        "num_statements": 1,
+                        "percent_covered": 0.0,
+                        "percent_covered_display": "0",
+                        "missing_lines": 1,
+                        "excluded_lines": 0
+                    },
+                    "missing_lines": [
+                        123
+                    ],
+                    "excluded_lines": []
+                },
+                "Point.isPoint": {
+                    "executed_lines": [
+                        126
+                    ],
+                    "summary": {
+                        "covered_lines": 1,
+                        "num_statements": 1,
+                        "percent_covered": 100.0,
+                        "percent_covered_display": "100",
+                        "missing_lines": 0,
+                        "excluded_lines": 0
+                    },
+                    "missing_lines": [],
+                    "excluded_lines": []
+                },
+                "Point.mustBeVector": {
+                    "executed_lines": [],
+                    "summary": {
+                        "covered_lines": 0,
+                        "num_statements": 1,
+                        "percent_covered": 0.0,
+                        "percent_covered_display": "0",
+                        "missing_lines": 1,
+                        "excluded_lines": 0
+                    },
+                    "missing_lines": [
+                        129
+                    ],
+                    "excluded_lines": []
+                },
+                "Point.mustBePoint": {
+                    "executed_lines": [
+                        132
+                    ],
+                    "summary": {
+                        "covered_lines": 1,
+                        "num_statements": 1,
+                        "percent_covered": 100.0,
+                        "percent_covered_display": "100",
+                        "missing_lines": 0,
+                        "excluded_lines": 0
+                    },
+                    "missing_lines": [],
+                    "excluded_lines": []
+                },
+                "Sphere.__init__": {
+                    "executed_lines": [
+                        138,
+                        139,
+                        140
+                    ],
+                    "summary": {
+                        "covered_lines": 3,
+                        "num_statements": 3,
+                        "percent_covered": 100.0,
+                        "percent_covered_display": "100",
+                        "missing_lines": 0,
+                        "excluded_lines": 0
+                    },
+                    "missing_lines": [],
+                    "excluded_lines": []
+                },
+                "Sphere.__repr__": {
+                    "executed_lines": [],
+                    "summary": {
+                        "covered_lines": 0,
+                        "num_statements": 1,
+                        "percent_covered": 0.0,
+                        "percent_covered_display": "0",
+                        "missing_lines": 1,
+                        "excluded_lines": 0
+                    },
+                    "missing_lines": [
+                        143
+                    ],
+                    "excluded_lines": []
+                },
+                "Sphere.intersectionTime": {
+                    "executed_lines": [
+                        146,
+                        147,
+                        148,
+                        149,
+                        150,
+                        152
+                    ],
+                    "summary": {
+                        "covered_lines": 6,
+                        "num_statements": 6,
+                        "percent_covered": 100.0,
+                        "percent_covered_display": "100",
+                        "missing_lines": 0,
+                        "excluded_lines": 0
+                    },
+                    "missing_lines": [],
+                    "excluded_lines": []
+                },
+                "Sphere.normalAt": {
+                    "executed_lines": [
+                        155
+                    ],
+                    "summary": {
+                        "covered_lines": 1,
+                        "num_statements": 1,
+                        "percent_covered": 100.0,
+                        "percent_covered_display": "100",
+                        "missing_lines": 0,
+                        "excluded_lines": 0
+                    },
+                    "missing_lines": [],
+                    "excluded_lines": []
+                },
+                "Halfspace.__init__": {
+                    "executed_lines": [
+                        161,
+                        162
+                    ],
+                    "summary": {
+                        "covered_lines": 2,
+                        "num_statements": 2,
+                        "percent_covered": 100.0,
+                        "percent_covered_display": "100",
+                        "missing_lines": 0,
+                        "excluded_lines": 0
+                    },
+                    "missing_lines": [],
+                    "excluded_lines": []
+                },
+                "Halfspace.__repr__": {
+                    "executed_lines": [],
+                    "summary": {
+                        "covered_lines": 0,
+                        "num_statements": 1,
+                        "percent_covered": 0.0,
+                        "percent_covered_display": "0",
+                        "missing_lines": 1,
+                        "excluded_lines": 0
+                    },
+                    "missing_lines": [
+                        165
+                    ],
+                    "excluded_lines": []
+                },
+                "Halfspace.intersectionTime": {
+                    "executed_lines": [
+                        168,
+                        169,
+                        170
+                    ],
+                    "summary": {
+                        "covered_lines": 3,
+                        "num_statements": 4,
+                        "percent_covered": 75.0,
+                        "percent_covered_display": "75",
+                        "missing_lines": 1,
+                        "excluded_lines": 0
+                    },
+                    "missing_lines": [
+                        172
+                    ],
+                    "excluded_lines": []
+                },
+                "Halfspace.normalAt": {
+                    "executed_lines": [
+                        175
+                    ],
+                    "summary": {
+                        "covered_lines": 1,
+                        "num_statements": 1,
+                        "percent_covered": 100.0,
+                        "percent_covered_display": "100",
+                        "missing_lines": 0,
+                        "excluded_lines": 0
+                    },
+                    "missing_lines": [],
+                    "excluded_lines": []
+                },
+                "Ray.__init__": {
+                    "executed_lines": [
+                        181,
+                        182
+                    ],
+                    "summary": {
+                        "covered_lines": 2,
+                        "num_statements": 2,
+                        "percent_covered": 100.0,
+                        "percent_covered_display": "100",
+                        "missing_lines": 0,
+                        "excluded_lines": 0
+                    },
+                    "missing_lines": [],
+                    "excluded_lines": []
+                },
+                "Ray.__repr__": {
+                    "executed_lines": [],
+                    "summary": {
+                        "covered_lines": 0,
+                        "num_statements": 1,
+                        "percent_covered": 0.0,
+                        "percent_covered_display": "0",
+                        "missing_lines": 1,
+                        "excluded_lines": 0
+                    },
+                    "missing_lines": [
+                        185
+                    ],
+                    "excluded_lines": []
+                },
+                "Ray.pointAtTime": {
+                    "executed_lines": [
+                        188
+                    ],
+                    "summary": {
+                        "covered_lines": 1,
+                        "num_statements": 1,
+                        "percent_covered": 100.0,
+                        "percent_covered_display": "100",
+                        "missing_lines": 0,
+                        "excluded_lines": 0
+                    },
+                    "missing_lines": [],
+                    "excluded_lines": []
+                },
+                "Canvas.__init__": {
+                    "executed_lines": [
+                        197,
+                        198,
+                        199,
+                        200,
+                        201
+                    ],
+                    "summary": {
+                        "covered_lines": 5,
+                        "num_statements": 5,
+                        "percent_covered": 100.0,
+                        "percent_covered_display": "100",
+                        "missing_lines": 0,
+                        "excluded_lines": 0
+                    },
+                    "missing_lines": [],
+                    "excluded_lines": []
+                },
+                "Canvas.plot": {
+                    "executed_lines": [
+                        204,
+                        205,
+                        206,
+                        207
+                    ],
+                    "summary": {
+                        "covered_lines": 4,
+                        "num_statements": 4,
+                        "percent_covered": 100.0,
+                        "percent_covered_display": "100",
+                        "missing_lines": 0,
+                        "excluded_lines": 0
+                    },
+                    "missing_lines": [],
+                    "excluded_lines": []
+                },
+                "Canvas.write_ppm": {
+                    "executed_lines": [],
+                    "summary": {
+                        "covered_lines": 0,
+                        "num_statements": 4,
+                        "percent_covered": 0.0,
+                        "percent_covered_display": "0",
+                        "missing_lines": 4,
+                        "excluded_lines": 0
+                    },
+                    "missing_lines": [
+                        210,
+                        211,
+                        212,
+                        213
+                    ],
+                    "excluded_lines": []
+                },
+                "firstIntersection": {
+                    "executed_lines": [
+                        217,
+                        218,
+                        219,
+                        220,
+                        221,
+                        222,
+                        223
+                    ],
+                    "summary": {
+                        "covered_lines": 7,
+                        "num_statements": 7,
+                        "percent_covered": 100.0,
+                        "percent_covered_display": "100",
+                        "missing_lines": 0,
+                        "excluded_lines": 0
+                    },
+                    "missing_lines": [],
+                    "excluded_lines": []
+                },
+                "Scene.__init__": {
+                    "executed_lines": [
+                        229,
+                        230,
+                        231,
+                        232,
+                        233,
+                        234
+                    ],
+                    "summary": {
+                        "covered_lines": 6,
+                        "num_statements": 6,
+                        "percent_covered": 100.0,
+                        "percent_covered_display": "100",
+                        "missing_lines": 0,
+                        "excluded_lines": 0
+                    },
+                    "missing_lines": [],
+                    "excluded_lines": []
+                },
+                "Scene.moveTo": {
+                    "executed_lines": [],
+                    "summary": {
+                        "covered_lines": 0,
+                        "num_statements": 1,
+                        "percent_covered": 0.0,
+                        "percent_covered_display": "0",
+                        "missing_lines": 1,
+                        "excluded_lines": 0
+                    },
+                    "missing_lines": [
+                        237
+                    ],
+                    "excluded_lines": []
+                },
+                "Scene.lookAt": {
+                    "executed_lines": [
+                        240
+                    ],
+                    "summary": {
+                        "covered_lines": 1,
+                        "num_statements": 1,
+                        "percent_covered": 100.0,
+                        "percent_covered_display": "100",
+                        "missing_lines": 0,
+                        "excluded_lines": 0
+                    },
+                    "missing_lines": [],
+                    "excluded_lines": []
+                },
+                "Scene.addObject": {
+                    "executed_lines": [
+                        243
+                    ],
+                    "summary": {
+                        "covered_lines": 1,
+                        "num_statements": 1,
+                        "percent_covered": 100.0,
+                        "percent_covered_display": "100",
+                        "missing_lines": 0,
+                        "excluded_lines": 0
+                    },
+                    "missing_lines": [],
+                    "excluded_lines": []
+                },
+                "Scene.addLight": {
+                    "executed_lines": [
+                        246
+                    ],
+                    "summary": {
+                        "covered_lines": 1,
+                        "num_statements": 1,
+                        "percent_covered": 100.0,
+                        "percent_covered_display": "100",
+                        "missing_lines": 0,
+                        "excluded_lines": 0
+                    },
+                    "missing_lines": [],
+                    "excluded_lines": []
+                },
+                "Scene.render": {
+                    "executed_lines": [
+                        249,
+                        250,
+                        251,
+                        252,
+                        253,
+                        254,
+                        255,
+                        257,
+                        258,
+                        259,
+                        261,
+                        262,
+                        263,
+                        264,
+                        265,
+                        266,
+                        267
+                    ],
+                    "summary": {
+                        "covered_lines": 17,
+                        "num_statements": 17,
+                        "percent_covered": 100.0,
+                        "percent_covered_display": "100",
+                        "missing_lines": 0,
+                        "excluded_lines": 0
+                    },
+                    "missing_lines": [],
+                    "excluded_lines": []
+                },
+                "Scene.rayColour": {
+                    "executed_lines": [
+                        270,
+                        271,
+                        272,
+                        273,
+                        274,
+                        275,
+                        276,
+                        277,
+                        279,
+                        280,
+                        281,
+                        283
+                    ],
+                    "summary": {
+                        "covered_lines": 12,
+                        "num_statements": 12,
+                        "percent_covered": 100.0,
+                        "percent_covered_display": "100",
+                        "missing_lines": 0,
+                        "excluded_lines": 0
+                    },
+                    "missing_lines": [],
+                    "excluded_lines": []
+                },
+                "Scene._lightIsVisible": {
+                    "executed_lines": [
+                        286,
+                        287,
+                        288,
+                        289,
+                        290
+                    ],
+                    "summary": {
+                        "covered_lines": 5,
+                        "num_statements": 5,
+                        "percent_covered": 100.0,
+                        "percent_covered_display": "100",
+                        "missing_lines": 0,
+                        "excluded_lines": 0
+                    },
+                    "missing_lines": [],
+                    "excluded_lines": []
+                },
+                "Scene.visibleLights": {
+                    "executed_lines": [
+                        293,
+                        294,
+                        295,
+                        296,
+                        297
+                    ],
+                    "summary": {
+                        "covered_lines": 5,
+                        "num_statements": 5,
+                        "percent_covered": 100.0,
+                        "percent_covered_display": "100",
+                        "missing_lines": 0,
+                        "excluded_lines": 0
+                    },
+                    "missing_lines": [],
+                    "excluded_lines": []
+                },
+                "addColours": {
+                    "executed_lines": [
+                        301
+                    ],
+                    "summary": {
+                        "covered_lines": 1,
+                        "num_statements": 1,
+                        "percent_covered": 100.0,
+                        "percent_covered_display": "100",
+                        "missing_lines": 0,
+                        "excluded_lines": 0
+                    },
+                    "missing_lines": [],
+                    "excluded_lines": []
+                },
+                "SimpleSurface.__init__": {
+                    "executed_lines": [
+                        307,
+                        308,
+                        309,
+                        310
+                    ],
+                    "summary": {
+                        "covered_lines": 4,
+                        "num_statements": 4,
+                        "percent_covered": 100.0,
+                        "percent_covered_display": "100",
+                        "missing_lines": 0,
+                        "excluded_lines": 0
+                    },
+                    "missing_lines": [],
+                    "excluded_lines": []
+                },
+                "SimpleSurface.baseColourAt": {
+                    "executed_lines": [
+                        315
+                    ],
+                    "summary": {
+                        "covered_lines": 1,
+                        "num_statements": 1,
+                        "percent_covered": 100.0,
+                        "percent_covered_display": "100",
+                        "missing_lines": 0,
+                        "excluded_lines": 0
+                    },
+                    "missing_lines": [],
+                    "excluded_lines": []
+                },
+                "SimpleSurface.colourAt": {
+                    "executed_lines": [
+                        318,
+                        320,
+                        321,
+                        322,
+                        323,
+                        324,
+                        326,
+                        327,
+                        328,
+                        329,
+                        330,
+                        331,
+                        332,
+                        333,
+                        335,
+                        336,
+                        338
+                    ],
+                    "summary": {
+                        "covered_lines": 17,
+                        "num_statements": 17,
+                        "percent_covered": 100.0,
+                        "percent_covered_display": "100",
+                        "missing_lines": 0,
+                        "excluded_lines": 0
+                    },
+                    "missing_lines": [],
+                    "excluded_lines": []
+                },
+                "CheckerboardSurface.__init__": {
+                    "executed_lines": [
+                        344,
+                        345,
+                        346
+                    ],
+                    "summary": {
+                        "covered_lines": 3,
+                        "num_statements": 3,
+                        "percent_covered": 100.0,
+                        "percent_covered_display": "100",
+                        "missing_lines": 0,
+                        "excluded_lines": 0
+                    },
+                    "missing_lines": [],
+                    "excluded_lines": []
+                },
+                "CheckerboardSurface.baseColourAt": {
+                    "executed_lines": [
+                        349,
+                        350,
+                        351,
+                        352,
+                        354
+                    ],
+                    "summary": {
+                        "covered_lines": 5,
+                        "num_statements": 5,
+                        "percent_covered": 100.0,
+                        "percent_covered_display": "100",
+                        "missing_lines": 0,
+                        "excluded_lines": 0
+                    },
+                    "missing_lines": [],
+                    "excluded_lines": []
+                },
+                "bench_raytrace": {
+                    "executed_lines": [
+                        358,
+                        359,
+                        361,
+                        362,
+                        363,
+                        364,
+                        365,
+                        366,
+                        367,
+                        368,
+                        369,
+                        373,
+                        374,
+                        376,
+                        378,
+                        380
+                    ],
+                    "summary": {
+                        "covered_lines": 16,
+                        "num_statements": 17,
+                        "percent_covered": 94.11764705882354,
+                        "percent_covered_display": "94",
+                        "missing_lines": 1,
+                        "excluded_lines": 0
+                    },
+                    "missing_lines": [
+                        379
+                    ],
+                    "excluded_lines": []
+                },
+                "add_cmdline_args": {
+                    "executed_lines": [],
+                    "summary": {
+                        "covered_lines": 0,
+                        "num_statements": 4,
+                        "percent_covered": 0.0,
+                        "percent_covered_display": "0",
+                        "missing_lines": 4,
+                        "excluded_lines": 0
+                    },
+                    "missing_lines": [
+                        384,
+                        385,
+                        386,
+                        387
+                    ],
+                    "excluded_lines": []
+                },
+                "": {
+                    "executed_lines": [
+                        1,
+                        11,
+                        12,
+                        14,
+                        15,
+                        18,
+                        19,
+                        20,
+                        23,
+                        25,
+                        30,
+                        33,
+                        36,
+                        39,
+                        45,
+                        49,
+                        52,
+                        56,
+                        64,
+                        67,
+                        70,
+                        73,
+                        76,
+                        79,
+                        82,
+                        85,
+                        90,
+                        91,
+                        92,
+                        93,
+                        95,
+                        96,
+                        99,
+                        101,
+                        106,
+                        109,
+                        112,
+                        116,
+                        122,
+                        125,
+                        128,
+                        131,
+                        135,
+                        137,
+                        142,
+                        145,
+                        154,
+                        158,
+                        160,
+                        164,
+                        167,
+                        174,
+                        178,
+                        180,
+                        184,
+                        187,
+                        191,
+                        194,
+                        196,
+                        203,
+                        209,
+                        216,
+                        226,
+                        228,
+                        236,
+                        239,
+                        242,
+                        245,
+                        248,
+                        269,
+                        285,
+                        292,
+                        300,
+                        304,
+                        306,
+                        314,
+                        317,
+                        341,
+                        343,
+                        348,
+                        357,
+                        383,
+                        390,
+                        391,
+                        392,
+                        393,
+                        399,
+                        405,
+                        409,
+                        410,
+                        411,
+                        412,
+                        413,
+                        414
+                    ],
+                    "summary": {
+                        "covered_lines": 93,
+                        "num_statements": 93,
+                        "percent_covered": 100.0,
+                        "percent_covered_display": "100",
+                        "missing_lines": 0,
+                        "excluded_lines": 0
+                    },
+                    "missing_lines": [],
+                    "excluded_lines": []
+                }
+            },
+            "classes": {
+                "Vector": {
+                    "executed_lines": [
+                        26,
+                        27,
+                        28,
+                        37,
+                        40,
+                        43,
+                        46,
+                        47,
+                        50,
+                        53,
+                        54,
+                        57,
+                        58,
+                        65,
+                        71,
+                        77,
+                        80,
+                        86,
+                        87
+                    ],
+                    "summary": {
+                        "covered_lines": 19,
+                        "num_statements": 25,
+                        "percent_covered": 76.0,
+                        "percent_covered_display": "76",
+                        "missing_lines": 6,
+                        "excluded_lines": 0
+                    },
+                    "missing_lines": [
+                        31,
+                        34,
+                        41,
+                        68,
+                        74,
+                        83
+                    ],
+                    "excluded_lines": []
+                },
+                "Point": {
+                    "executed_lines": [
+                        102,
+                        103,
+                        104,
+                        113,
+                        114,
+                        117,
+                        118,
+                        126,
+                        132
+                    ],
+                    "summary": {
+                        "covered_lines": 9,
+                        "num_statements": 14,
+                        "percent_covered": 64.28571428571429,
+                        "percent_covered_display": "64",
+                        "missing_lines": 5,
+                        "excluded_lines": 0
+                    },
+                    "missing_lines": [
+                        107,
+                        110,
+                        120,
+                        123,
+                        129
+                    ],
+                    "excluded_lines": []
+                },
+                "Sphere": {
+                    "executed_lines": [
+                        138,
+                        139,
+                        140,
+                        146,
+                        147,
+                        148,
+                        149,
+                        150,
+                        152,
+                        155
+                    ],
+                    "summary": {
+                        "covered_lines": 10,
+                        "num_statements": 11,
+                        "percent_covered": 90.9090909090909,
+                        "percent_covered_display": "91",
+                        "missing_lines": 1,
+                        "excluded_lines": 0
+                    },
+                    "missing_lines": [
+                        143
+                    ],
+                    "excluded_lines": []
+                },
+                "Halfspace": {
+                    "executed_lines": [
+                        161,
+                        162,
+                        168,
+                        169,
+                        170,
+                        175
+                    ],
+                    "summary": {
+                        "covered_lines": 6,
+                        "num_statements": 8,
+                        "percent_covered": 75.0,
+                        "percent_covered_display": "75",
+                        "missing_lines": 2,
+                        "excluded_lines": 0
+                    },
+                    "missing_lines": [
+                        165,
+                        172
+                    ],
+                    "excluded_lines": []
+                },
+                "Ray": {
+                    "executed_lines": [
+                        181,
+                        182,
+                        188
+                    ],
+                    "summary": {
+                        "covered_lines": 3,
+                        "num_statements": 4,
+                        "percent_covered": 75.0,
+                        "percent_covered_display": "75",
+                        "missing_lines": 1,
+                        "excluded_lines": 0
+                    },
+                    "missing_lines": [
+                        185
+                    ],
+                    "excluded_lines": []
+                },
+                "Canvas": {
+                    "executed_lines": [
+                        197,
+                        198,
+                        199,
+                        200,
+                        201,
+                        204,
+                        205,
+                        206,
+                        207
+                    ],
+                    "summary": {
+                        "covered_lines": 9,
+                        "num_statements": 13,
+                        "percent_covered": 69.23076923076923,
+                        "percent_covered_display": "69",
+                        "missing_lines": 4,
+                        "excluded_lines": 0
+                    },
+                    "missing_lines": [
+                        210,
+                        211,
+                        212,
+                        213
+                    ],
+                    "excluded_lines": []
+                },
+                "Scene": {
+                    "executed_lines": [
+                        229,
+                        230,
+                        231,
+                        232,
+                        233,
+                        234,
+                        240,
+                        243,
+                        246,
+                        249,
+                        250,
+                        251,
+                        252,
+                        253,
+                        254,
+                        255,
+                        257,
+                        258,
+                        259,
+                        261,
+                        262,
+                        263,
+                        264,
+                        265,
+                        266,
+                        267,
+                        270,
+                        271,
+                        272,
+                        273,
+                        274,
+                        275,
+                        276,
+                        277,
+                        279,
+                        280,
+                        281,
+                        283,
+                        286,
+                        287,
+                        288,
+                        289,
+                        290,
+                        293,
+                        294,
+                        295,
+                        296,
+                        297
+                    ],
+                    "summary": {
+                        "covered_lines": 48,
+                        "num_statements": 49,
+                        "percent_covered": 97.95918367346938,
+                        "percent_covered_display": "98",
+                        "missing_lines": 1,
+                        "excluded_lines": 0
+                    },
+                    "missing_lines": [
+                        237
+                    ],
+                    "excluded_lines": []
+                },
+                "SimpleSurface": {
+                    "executed_lines": [
+                        307,
+                        308,
+                        309,
+                        310,
+                        315,
+                        318,
+                        320,
+                        321,
+                        322,
+                        323,
+                        324,
+                        326,
+                        327,
+                        328,
+                        329,
+                        330,
+                        331,
+                        332,
+                        333,
+                        335,
+                        336,
+                        338
+                    ],
+                    "summary": {
+                        "covered_lines": 22,
+                        "num_statements": 22,
+                        "percent_covered": 100.0,
+                        "percent_covered_display": "100",
+                        "missing_lines": 0,
+                        "excluded_lines": 0
+                    },
+                    "missing_lines": [],
+                    "excluded_lines": []
+                },
+                "CheckerboardSurface": {
+                    "executed_lines": [
+                        344,
+                        345,
+                        346,
+                        349,
+                        350,
+                        351,
+                        352,
+                        354
+                    ],
+                    "summary": {
+                        "covered_lines": 8,
+                        "num_statements": 8,
+                        "percent_covered": 100.0,
+                        "percent_covered_display": "100",
+                        "missing_lines": 0,
+                        "excluded_lines": 0
+                    },
+                    "missing_lines": [],
+                    "excluded_lines": []
+                },
+                "": {
+                    "executed_lines": [
+                        1,
+                        11,
+                        12,
+                        14,
+                        15,
+                        18,
+                        19,
+                        20,
+                        23,
+                        25,
+                        30,
+                        33,
+                        36,
+                        39,
+                        45,
+                        49,
+                        52,
+                        56,
+                        64,
+                        67,
+                        70,
+                        73,
+                        76,
+                        79,
+                        82,
+                        85,
+                        90,
+                        91,
+                        92,
+                        93,
+                        95,
+                        96,
+                        99,
+                        101,
+                        106,
+                        109,
+                        112,
+                        116,
+                        122,
+                        125,
+                        128,
+                        131,
+                        135,
+                        137,
+                        142,
+                        145,
+                        154,
+                        158,
+                        160,
+                        164,
+                        167,
+                        174,
+                        178,
+                        180,
+                        184,
+                        187,
+                        191,
+                        194,
+                        196,
+                        203,
+                        209,
+                        216,
+                        217,
+                        218,
+                        219,
+                        220,
+                        221,
+                        222,
+                        223,
+                        226,
+                        228,
+                        236,
+                        239,
+                        242,
+                        245,
+                        248,
+                        269,
+                        285,
+                        292,
+                        300,
+                        301,
+                        304,
+                        306,
+                        314,
+                        317,
+                        341,
+                        343,
+                        348,
+                        357,
+                        358,
+                        359,
+                        361,
+                        362,
+                        363,
+                        364,
+                        365,
+                        366,
+                        367,
+                        368,
+                        369,
+                        373,
+                        374,
+                        376,
+                        378,
+                        380,
+                        383,
+                        390,
+                        391,
+                        392,
+                        393,
+                        399,
+                        405,
+                        409,
+                        410,
+                        411,
+                        412,
+                        413,
+                        414
+                    ],
+                    "summary": {
+                        "covered_lines": 117,
+                        "num_statements": 122,
+                        "percent_covered": 95.90163934426229,
+                        "percent_covered_display": "96",
+                        "missing_lines": 5,
+                        "excluded_lines": 0
+                    },
+                    "missing_lines": [
+                        379,
+                        384,
+                        385,
+                        386,
+                        387
+                    ],
+                    "excluded_lines": []
+                }
+            }
+        }
+    },
+    "totals": {
+        "covered_lines": 251,
+        "num_statements": 276,
+        "percent_covered": 90.94202898550725,
+        "percent_covered_display": "91",
+        "missing_lines": 25,
+        "excluded_lines": 0
+    }
+}
