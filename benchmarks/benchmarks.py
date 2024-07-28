@@ -79,7 +79,7 @@ def load_cases():
 cases = load_cases()
 
 def load_benchmarks():
-    TRIES = 5
+    TRIES = 1
     # someplace with scikit-learn 1.1.1 sources, built and ready to test
     SCIKIT_LEARN = Path.home() / "tmp" / ("scikit-learn" + ("-pypy" if platform.python_implementation() == "PyPy" else ""))
     FLASK = Path.home() / "tmp" / "flask"
